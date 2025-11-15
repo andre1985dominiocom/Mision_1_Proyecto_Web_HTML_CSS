@@ -1,0 +1,172 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  height: 100%; /* Asegura que el cuerpo ocupe el 100% del alto */
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #f57327bb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.imagen-destacada {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100px;*/
+  margin-top: 20px;
+  border-radius: 50%;
+  transition: flex-basis 1s cubic-bezier(0,.9,.4,.99);
+}
+
+/* Estilos de la sección 'Sobre Nosotros' */
+#sobre-nosotros {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#sobre-nosotros h2,
+#sobre-nosotros p {
+  margin-bottom: 15px;
+}
+
+/* Estilos de las secciones */
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Estilos del formulario */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+  max-width: 100%;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  width: 100px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #34495e;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+x
+.card {
+  height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+}
+.card-img-top {
+  height: 200px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+#carouselExample img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+#galeria h2 {
+  text-align: center; /* Centra el texto del encabezado */
+  margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+#testimonios {
+  overflow: hidden; /* Para evitar el desbordamiento */
+}
