@@ -1,0 +1,74 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="95" fill="#4ECDC4" opacity="0.2"/>
+  
+  <!-- Círculo interior -->
+  <circle cx="100" cy="100" r="75" fill="#4ECDC4" opacity="0.3"/>
+  
+  <!-- Perrito - Cuerpo -->
+  <ellipse cx="120" cy="120" rx="25" ry="22" fill="#F4A460"/>
+  
+  <!-- Perrito - Cabeza -->
+  <circle cx="115" cy="95" r="18" fill="#F4A460"/>
+  
+  <!-- Perrito - Orejas -->
+  <ellipse cx="105" cy="82" rx="6" ry="12" fill="#D2691E" transform="rotate(-20 105 82)"/>
+  <ellipse cx="125" cy="82" rx="6" ry="12" fill="#D2691E" transform="rotate(20 125 82)"/>
+  
+  <!-- Perrito - Ojos -->
+  <circle cx="110" cy="93" r="2.5" fill="#2C3E50"/>
+  <circle cx="120" cy="93" r="2.5" fill="#2C3E50"/>
+  
+  <!-- Perrito - Nariz -->
+  <circle cx="115" cy="100" r="2.5" fill="#2C3E50"/>
+  
+  <!-- Perrito - Boca feliz -->
+  <path d="M 110 102 Q 115 106 120 102" stroke="#2C3E50" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Perrito - Lengua -->
+  <ellipse cx="115" cy="105" rx="3" ry="4" fill="#FF6B9D"/>
+  
+  <!-- Perrito - Collar -->
+  <ellipse cx="115" cy="108" rx="12" ry="3" fill="#E74C3C"/>
+  
+  <!-- Mano de veterinario/a -->
+  <path d="M 70 110 Q 75 108 85 110 L 95 115 Q 92 120 85 118 L 72 115 Z" fill="#FFD4A3" stroke="#D2A679" stroke-width="1"/>
+  
+  <!-- Cruz médica -->
+  <g transform="translate(55, 95)">
+    <rect x="-3" y="-8" width="6" height="16" fill="white" rx="1"/>
+    <rect x="-8" y="-3" width="16" height="6" fill="white" rx="1"/>
+    <rect x="-2.5" y="-7" width="5" height="14" fill="#E74C3C" rx="1"/>
+    <rect x="-7" y="-2.5" width="14" height="5" fill="#E74C3C" rx="1"/>
+  </g>
+  
+  <!-- Corazón pequeño -->
+  <path d="M 145 75 C 145 72 147 70 149 70 C 150 70 151 71 151.5 72 C 152 71 153 70 154 70 C 156 70 158 72 158 75 C 158 78 151.5 83 151.5 83 C 151.5 83 145 78 145 75 Z" fill="#FF6B9D"/>
+  
+  <!-- Texto -->
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2C3E50" text-anchor="middle">
+    VETERINARIA
+  </text>
+  
+  <!-- Subtexto -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="10" fill="#4ECDC4" text-anchor="middle">
+    Cuidado con amor
+  </text>
+  
+  <!-- Huellitas decorativas -->
+  <g transform="translate(35, 130)" fill="#4ECDC4" opacity="0.4">
+    <circle cx="0" cy="0" r="3"/>
+    <circle cx="-4" cy="-5" r="2"/>
+    <circle cx="4" cy="-5" r="2"/>
+    <circle cx="-2" cy="-8" r="1.5"/>
+    <circle cx="2" cy="-8" r="1.5"/>
+  </g>
+  
+  <g transform="translate(165, 50)" fill="#4ECDC4" opacity="0.4">
+    <circle cx="0" cy="0" r="3"/>
+    <circle cx="-4" cy="-5" r="2"/>
+    <circle cx="4" cy="-5" r="2"/>
+    <circle cx="-2" cy="-8" r="1.5"/>
+    <circle cx="2" cy="-8" r="1.5"/>
+  </g>
+</svg>

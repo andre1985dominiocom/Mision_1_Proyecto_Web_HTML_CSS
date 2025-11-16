@@ -1,0 +1,109 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo de la tarjeta -->
+  <rect x="0" y="0" width="400" height="250" fill="#FFFFFF" rx="15"/>
+  <rect x="0" y="0" width="400" height="250" fill="url(#gradient2)" rx="15" opacity="0.1"/>
+  
+  <!-- Definir gradiente -->
+  <defs>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#64B5F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Comillas decorativas -->
+  <text x="50" y="100" font-size="120" fill="#2196F3" opacity="0.15" font-family="Georgia, serif">"</text>
+  
+  <!-- Avatar de la persona FEMENINO -->
+  <circle cx="100" cy="150" r="45" fill="#FFD4A3"/>
+  
+  <!-- Cabello -->
+  <ellipse cx="100" cy="130" rx="40" ry="35" fill="#3E2723"/>
+  <path d="M 65 140 Q 58 128 61 115 Q 65 122 72 130 Z" fill="#3E2723"/>
+  <path d="M 135 140 Q 142 128 139 115 Q 135 122 128 130 Z" fill="#3E2723"/>
+  
+  <!-- Cara -->
+  <ellipse cx="100" cy="150" rx="35" ry="40" fill="#FFD4A3"/>
+  
+  <!-- Ojos -->
+  <circle cx="90" cy="145" r="4" fill="#2C3E50"/>
+  <circle cx="110" cy="145" r="4" fill="#2C3E50"/>
+  <circle cx="91.5" cy="143.5" r="2" fill="white"/>
+  <circle cx="111.5" cy="143.5" r="2" fill="white"/>
+  
+  <!-- Nariz -->
+  <path d="M 100 155 L 97 161 L 103 161 Z" fill="#D2A679" opacity="0.3"/>
+  
+  <!-- Boca sonriente -->
+  <path d="M 88 168 Q 100 175 112 168" stroke="#2C3E50" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cuerpo/ropa -->
+  <path d="M 70 190 L 60 240 L 140 240 L 130 190 Z" fill="#E91E63"/>
+  <circle cx="100" cy="190" r="5" fill="#C2185B"/>
+  
+  <!-- Gatito al lado -->
+  <ellipse cx="270" cy="155" rx="28" ry="22" fill="#FF9800"/>
+  <circle cx="263" cy="135" r="20" fill="#FF9800"/>
+  
+  <!-- Orejas triangulares de gato -->
+  <path d="M 250 122 L 243 105 L 253 118 Z" fill="#FF9800"/>
+  <path d="M 276 122 L 283 105 L 273 118 Z" fill="#FF9800"/>
+  <path d="M 251 116 L 247 105 L 252 115 Z" fill="#FFB74D"/>
+  <path d="M 275 116 L 279 105 L 274 115 Z" fill="#FFB74D"/>
+  
+  <!-- Ojos del gato -->
+  <circle cx="256" cy="133" r="3.5" fill="#2C3E50"/>
+  <circle cx="270" cy="133" r="3.5" fill="#2C3E50"/>
+  <circle cx="257.5" cy="131.5" r="1.5" fill="white"/>
+  <circle cx="271.5" cy="131.5" r="1.5" fill="white"/>
+  
+  <!-- Nariz del gato -->
+  <path d="M 263 140 L 260 143 L 266 143 Z" fill="#E65100"/>
+  
+  <!-- Bigotes -->
+  <line x1="250" y1="138" x2="235" y2="135" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="250" y1="142" x2="235" y2="142" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="276" y1="138" x2="291" y2="135" stroke="#2C3E50" stroke-width="1"/>
+  <line x1="276" y1="142" x2="291" y2="142" stroke="#2C3E50" stroke-width="1"/>
+  
+  <!-- Collar del gato -->
+  <ellipse cx="263" cy="152" rx="12" ry="3.5" fill="#E91E63"/>
+  <circle cx="263" cy="152" r="2.5" fill="#FDD835"/>
+  
+  <!-- Estrellas de calificación más grandes -->
+  <g transform="translate(200, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  <g transform="translate(235, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  <g transform="translate(270, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  <g transform="translate(305, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  <g transform="translate(340, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  
+  <!-- Huellitas decorativas -->
+  <g transform="translate(340, 50)" fill="#2196F3" opacity="0.3">
+    <ellipse cx="0" cy="0" rx="6" ry="8"/>
+    <ellipse cx="-8" cy="-9" rx="4" ry="5"/>
+    <ellipse cx="8" cy="-9" rx="4" ry="5"/>
+    <ellipse cx="-4" cy="-14" rx="3" ry="4"/>
+    <ellipse cx="4" cy="-14" rx="3" ry="4"/>
+  </g>
+  
+  <g transform="translate(335, 165)" fill="#2196F3" opacity="0.3">
+    <ellipse cx="0" cy="0" rx="6" ry="8"/>
+    <ellipse cx="-8" cy="-9" rx="4" ry="5"/>
+    <ellipse cx="8" cy="-9" rx="4" ry="5"/>
+    <ellipse cx="-4" cy="-14" rx="3" ry="4"/>
+    <ellipse cx="4" cy="-14" rx="3" ry="4"/>
+  </g>
+  
+  <!-- Borde sutil -->
+  <rect x="2" y="2" width="396" height="246" fill="none" stroke="#E0E0E0" stroke-width="2" rx="15"/>
+</svg>

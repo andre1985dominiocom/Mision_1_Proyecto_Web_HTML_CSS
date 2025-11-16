@@ -1,0 +1,124 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo - Pared -->
+  <rect x="0" y="0" width="400" height="200" fill="#E1F5F5"/>
+  
+  <!-- Piso -->
+  <rect x="0" y="200" width="400" height="100" fill="#CFD8DC"/>
+  
+  <!-- Líneas del piso brillante -->
+  <line x1="0" y1="200" x2="200" y2="300" stroke="#B0BEC5" stroke-width="1" opacity="0.6"/>
+  <line x1="100" y1="200" x2="300" y2="300" stroke="#B0BEC5" stroke-width="1" opacity="0.6"/>
+  <line x1="200" y1="200" x2="400" y2="300" stroke="#B0BEC5" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Mesa quirúrgica central -->
+  <ellipse cx="200" cy="240" rx="80" ry="20" fill="#90A4AE" opacity="0.3"/>
+  <rect x="140" y="215" width="120" height="15" fill="#78909C" rx="3"/>
+  <rect x="145" y="230" width="110" height="10" fill="#546E7A" rx="2"/>
+  
+  <!-- Patas de la mesa -->
+  <rect x="150" y="240" width="8" height="35" fill="#455A64"/>
+  <rect x="242" y="240" width="8" height="35" fill="#455A64"/>
+  <circle cx="154" cy="277" r="6" fill="#37474F"/>
+  <circle cx="246" cy="277" r="6" fill="#37474F"/>
+  
+  <!-- Paño quirúrgico verde -->
+  <rect x="155" y="205" width="90" height="10" fill="#4CAF50" rx="1"/>
+  <path d="M 155 215 Q 200 218 245 215" fill="#66BB6A"/>
+  
+  <!-- Lámpara quirúrgica (scialítica) grande -->
+  <line x1="200" y1="0" x2="200" y2="80" stroke="#B0BEC5" stroke-width="8"/>
+  <ellipse cx="200" cy="85" rx="45" ry="12" fill="#E0E0E0"/>
+  <ellipse cx="200" cy="87" rx="40" ry="10" fill="#EEEEEE"/>
+  <circle cx="200" cy="87" r="30" fill="#FFEB3B" opacity="0.8"/>
+  <circle cx="200" cy="87" r="25" fill="#FFF9C4"/>
+  
+  <!-- Luces LED de la lámpara -->
+  <circle cx="190" cy="82" r="3" fill="white" opacity="0.9"/>
+  <circle cx="200" cy="80" r="3" fill="white" opacity="0.9"/>
+  <circle cx="210" cy="82" r="3" fill="white" opacity="0.9"/>
+  <circle cx="195" cy="90" r="3" fill="white" opacity="0.9"/>
+  <circle cx="205" cy="90" r="3" fill="white" opacity="0.9"/>
+  
+  <!-- Lámpara secundaria -->
+  <line x1="320" y1="20" x2="300" y2="100" stroke="#B0BEC5" stroke-width="6"/>
+  <ellipse cx="295" cy="105" rx="30" ry="8" fill="#E0E0E0"/>
+  <circle cx="295" cy="105" r="20" fill="#FFEB3B" opacity="0.7"/>
+  <circle cx="295" cy="105" r="15" fill="#FFF9C4"/>
+  
+  <!-- Monitor de signos vitales -->
+  <rect x="290" y="140" width="80" height="60" fill="#263238" rx="3"/>
+  <rect x="295" y="145" width="70" height="50" fill="#1B5E20"/>
+  
+  <!-- Línea de ECG en monitor -->
+  <path d="M 300 170 L 310 170 L 315 160 L 320 180 L 325 170 L 360 170" stroke="#4CAF50" stroke-width="2.5" fill="none"/>
+  
+  <!-- Indicadores del monitor -->
+  <circle cx="305" cy="153" r="3" fill="#FF5252"/>
+  <circle cx="315" cy="153" r="3" fill="#4CAF50"/>
+  <circle cx="325" cy="153" r="3" fill="#FFC107"/>
+  
+  <!-- Texto en monitor -->
+  <text x="310" y="163" font-size="6" fill="#4CAF50" font-family="monospace">HR: 120</text>
+  <text x="310" y="188" font-size="6" fill="#4CAF50" font-family="monospace">SPO2: 98%</text>
+  
+  <!-- Carro de instrumentos quirúrgicos -->
+  <rect x="50" y="190" width="60" height="8" fill="#78909C" rx="2"/>
+  <rect x="55" y="198" width="50" height="3" fill="#546E7A"/>
+  
+  <!-- Bandeja con instrumentos -->
+  <rect x="58" y="178" width="44" height="12" fill="#90A4AE" rx="1"/>
+  <rect x="60" y="180" width="40" height="8" fill="#B0BEC5"/>
+  
+  <!-- Instrumentos quirúrgicos -->
+  <line x1="65" y1="184" x2="75" y2="184" stroke="#CFD8DC" stroke-width="1.5"/>
+  <circle cx="76" cy="184" r="1.5" fill="#E0E0E0"/>
+  <line x1="78" y1="184" x2="88" y2="184" stroke="#CFD8DC" stroke-width="1.5"/>
+  <line x1="65" y1="187" x2="72" y2="187" stroke="#CFD8DC" stroke-width="1.5"/>
+  <path d="M 73 187 L 76 185 L 76 189 Z" fill="#E0E0E0"/>
+  <line x1="80" y1="186" x2="92" y2="186" stroke="#CFD8DC" stroke-width="2"/>
+  
+  <!-- Patas del carro con ruedas -->
+  <line x1="60" y1="201" x2="60" y2="218" stroke="#455A64" stroke-width="4"/>
+  <line x1="100" y1="201" x2="100" y2="218" stroke="#455A64" stroke-width="4"/>
+  <circle cx="60" cy="220" r="4" fill="#424242"/>
+  <circle cx="100" cy="220" r="4" fill="#424242"/>
+  
+  <!-- Tanque de oxígeno -->
+  <rect x="340" y="220" width="20" height="50" fill="#00897B" rx="2"/>
+  <circle cx="350" cy="218" r="8" fill="#00695C"/>
+  <rect x="348" y="212" width="4" height="6" fill="#004D40"/>
+  <text x="350" y="250" font-size="8" fill="white" text-anchor="middle" font-weight="bold">O₂</text>
+  
+  <!-- Dispensador de guantes -->
+  <rect x="30" y="100" width="50" height="35" fill="#E3F2FD" rx="3"/>
+  <rect x="35" y="105" width="40" height="25" fill="#90CAF9"/>
+  <ellipse cx="55" cy="117.5" rx="15" ry="8" fill="#BBDEFB"/>
+  
+  <!-- Reloj de pared -->
+  <circle cx="370" cy="60" r="20" fill="white" stroke="#424242" stroke-width="2"/>
+  <circle cx="370" cy="60" r="2" fill="#424242"/>
+  <line x1="370" y1="60" x2="370" y2="48" stroke="#424242" stroke-width="2"/>
+  <line x1="370" y1="60" x2="378" y2="65" stroke="#F44336" stroke-width="1.5"/>
+  
+  <!-- Números del reloj -->
+  <text x="370" y="47" font-size="6" fill="#424242" text-anchor="middle">12</text>
+  <text x="383" y="63" font-size="6" fill="#424242" text-anchor="middle">3</text>
+  <text x="370" y="77" font-size="6" fill="#424242" text-anchor="middle">6</text>
+  <text x="357" y="63" font-size="6" fill="#424242" text-anchor="middle">9</text>
+  
+  <!-- Lavabo quirúrgico -->
+  <rect x="30" y="160" width="55" height="25" fill="#90A4AE" rx="3"/>
+  <ellipse cx="57.5" cy="172.5" rx="18" ry="10" fill="#ECEFF1"/>
+  <ellipse cx="57.5" cy="172.5" rx="15" ry="8" fill="#CFD8DC"/>
+  
+  <!-- Grifos -->
+  <rect x="50" y="147" width="5" height="13" fill="#78909C" rx="1"/>
+  <rect x="60" y="147" width="5" height="13" fill="#78909C" rx="1"/>
+  <circle cx="52.5" cy="145" r="3" fill="#607D8B"/>
+  <circle cx="62.5" cy="145" r="3" fill="#607D8B"/>
+  
+  <!-- Señalización en la pared -->
+  <circle cx="100" cy="50" r="18" fill="#FF5252"/>
+  <rect x="97" y="44" width="6" height="12" fill="white" rx="1"/>
+  <circle cx="100" cy="59" r="2" fill="white"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="90" fill="#E8F5E9"/>
+  
+  <!-- Mesa de examen -->
+  <rect x="50" y="130" width="100" height="8" fill="#455A64" rx="2"/>
+  <rect x="55" y="138" width="6" height="25" fill="#37474F"/>
+  <rect x="139" y="138" width="6" height="25" fill="#37474F"/>
+  
+  <!-- Perrito en la mesa -->
+  <ellipse cx="100" cy="115" rx="22" ry="18" fill="#F4A460"/>
+  <circle cx="100" cy="100" r="15" fill="#F4A460"/>
+  
+  <!-- Orejas -->
+  <ellipse cx="92" cy="92" rx="5" ry="10" fill="#D2691E" transform="rotate(-15 92 92)"/>
+  <ellipse cx="108" cy="92" rx="5" ry="10" fill="#D2691E" transform="rotate(15 108 92)"/>
+  
+  <!-- Ojos -->
+  <circle cx="96" cy="98" r="2" fill="#2C3E50"/>
+  <circle cx="104" cy="98" r="2" fill="#2C3E50"/>
+  
+  <!-- Nariz y boca -->
+  <circle cx="100" cy="103" r="2" fill="#2C3E50"/>
+  <path d="M 96 105 Q 100 107 104 105" stroke="#2C3E50" stroke-width="1" fill="none"/>
+  
+  <!-- Veterinaria -->
+  <circle cx="60" cy="80" r="12" fill="#FFD4A3"/>
+  <path d="M 60 92 L 60 115 L 52 125 M 60 100 L 68 105" stroke="#4CAF50" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <ellipse cx="60" cy="78" rx="10" ry="8" fill="#8B4513"/>
+  
+  <!-- Estetoscopio -->
+  <path d="M 68 85 Q 75 90 82 95" stroke="#455A64" stroke-width="2" fill="none"/>
+  <circle cx="84" cy="97" r="4" fill="#455A64"/>
+  <circle cx="84" cy="97" r="2.5" fill="#78909C"/>
+  
+  <!-- Clipboard con historia clínica -->
+  <rect x="125" y="70" width="25" height="35" fill="#FFF" stroke="#90A4AE" stroke-width="2" rx="2"/>
+  <rect x="135" y="65" width="5" height="8" fill="#90A4AE" rx="1"/>
+  <line x1="130" y1="80" x2="145" y2="80" stroke="#4CAF50" stroke-width="1.5"/>
+  <line x1="130" y1="86" x2="145" y2="86" stroke="#90A4AE" stroke-width="1"/>
+  <line x1="130" y1="91" x2="145" y2="91" stroke="#90A4AE" stroke-width="1"/>
+  <line x1="130" y1="96" x2="142" y2="96" stroke="#90A4AE" stroke-width="1"/>
+  
+  <!-- Cruz médica -->
+  <g transform="translate(160, 40)">
+    <circle cx="0" cy="0" r="15" fill="#4CAF50"/>
+    <rect x="-2" y="-8" width="4" height="16" fill="white" rx="1"/>
+    <rect x="-8" y="-2" width="16" height="4" fill="white" rx="1"/>
+  </g>
+</svg>

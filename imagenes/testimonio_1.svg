@@ -1,0 +1,103 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo de la tarjeta -->
+  <rect x="0" y="0" width="400" height="250" fill="#FFFFFF" rx="15"/>
+  <rect x="0" y="0" width="400" height="250" fill="url(#gradient1)" rx="15" opacity="0.1"/>
+  
+  <!-- Definir gradiente -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#81C784;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Comillas decorativas -->
+  <text x="50" y="100" font-size="120" fill="#4CAF50" opacity="0.15" font-family="Georgia, serif">"</text>
+  
+  <!-- Avatar de la persona MASCULINO -->
+  <circle cx="100" cy="150" r="45" fill="#FFD4A3"/>
+  
+  <!-- Cabello -->
+  <ellipse cx="100" cy="130" rx="40" ry="35" fill="#6D4C41"/>
+  <path d="M 65 140 Q 56 133 60 120 Q 64 127 71 135 Z" fill="#6D4C41"/>
+  <path d="M 135 140 Q 144 133 140 120 Q 136 127 129 135 Z" fill="#6D4C41"/>
+  
+  <!-- Barba -->
+  <ellipse cx="100" cy="170" rx="26" ry="22" fill="#8D6E63"/>
+  <path d="M 76 160 Q 73 168 76 178 L 124 178 Q 127 168 124 160" fill="#8D6E63"/>
+  
+  <!-- Cara -->
+  <ellipse cx="100" cy="150" rx="35" ry="40" fill="#FFD4A3"/>
+  
+  <!-- Ojos -->
+  <circle cx="90" cy="145" r="4" fill="#2C3E50"/>
+  <circle cx="110" cy="145" r="4" fill="#2C3E50"/>
+  <circle cx="91.5" cy="143.5" r="2" fill="white"/>
+  <circle cx="111.5" cy="143.5" r="2" fill="white"/>
+  
+  <!-- Cejas -->
+  <path d="M 80 135 Q 87 133 93 134" stroke="#6D4C41" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 107 134 Q 113 133 120 135" stroke="#6D4C41" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nariz -->
+  <path d="M 100 155 L 97 161 L 103 161 Z" fill="#D2A679" opacity="0.3"/>
+  
+  <!-- Boca sonriente -->
+  <path d="M 88 170 Q 100 177 112 170" stroke="#2C3E50" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cuerpo/ropa -->
+  <path d="M 70 190 L 60 240 L 140 240 L 130 190 Z" fill="#2196F3"/>
+  <line x1="100" y1="190" x2="100" y2="240" stroke="#1976D2" stroke-width="4"/>
+  
+  <!-- Perrito al lado -->
+  <ellipse cx="270" cy="155" rx="30" ry="25" fill="#F4A460"/>
+  <circle cx="263" cy="130" r="22" fill="#F4A460"/>
+  
+  <!-- Orejas del perro -->
+  <ellipse cx="250" cy="120" rx="8" ry="16" fill="#D2691E" transform="rotate(-20 250 120)"/>
+  <ellipse cx="276" cy="120" rx="8" ry="16" fill="#D2691E" transform="rotate(20 276 120)"/>
+  
+  <!-- Ojos del perro -->
+  <circle cx="256" cy="127" r="3.5" fill="#2C3E50"/>
+  <circle cx="270" cy="127" r="3.5" fill="#2C3E50"/>
+  <circle cx="257.5" cy="125.5" r="1.5" fill="white"/>
+  <circle cx="271.5" cy="125.5" r="1.5" fill="white"/>
+  
+  <!-- Nariz del perro -->
+  <circle cx="263" cy="137" r="4" fill="#2C3E50"/>
+  
+  <!-- Boca feliz del perro -->
+  <path d="M 255 140 Q 263 146 271 140" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  
+  <!-- Lengua -->
+  <ellipse cx="263" cy="145" rx="4" ry="5" fill="#FF6B9D"/>
+  
+  <!-- Collar -->
+  <ellipse cx="263" cy="150" rx="14" ry="4" fill="#E74C3C"/>
+  <circle cx="263" cy="150" r="3" fill="#FDD835"/>
+  
+  <!-- Estrellas de calificación más grandes -->
+  <g transform="translate(200, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  <g transform="translate(235, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  <g transform="translate(270, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  <g transform="translate(305, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  <g transform="translate(340, 210)">
+    <path d="M 0,-10 L 2.5,-3 L 10,-3 L 4,2 L 6.5,10 L 0,5 L -6.5,10 L -4,2 L -10,-3 L -2.5,-3 Z" fill="#FFC107"/>
+  </g>
+  
+  <!-- Corazones decorativos -->
+  <path d="M 350 40 C 350 35 353 32 356 32 C 358 32 359 33 360 35 C 361 33 362 32 364 32 C 367 35 367 40 367 40 C 367 45 360 52 360 52 C 360 52 350 45 350 40 Z" fill="#FF6B9D" opacity="0.6"/>
+  
+  <path d="M 330 180 C 330 175 333 172 336 172 C 338 172 339 173 340 175 C 341 173 342 172 344 172 C 347 175 347 180 347 180 C 347 185 340 192 340 192 C 340 192 330 185 330 180 Z" fill="#FF6B9D" opacity="0.6"/>
+  
+  <!-- Borde sutil -->
+  <rect x="2" y="2" width="396" height="246" fill="none" stroke="#E0E0E0" stroke-width="2" rx="15"/>
+</svg>

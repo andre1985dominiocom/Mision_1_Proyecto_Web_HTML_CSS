@@ -1,0 +1,95 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo - Pared -->
+  <rect x="0" y="0" width="400" height="200" fill="#B8E6E1"/>
+  
+  <!-- Piso -->
+  <rect x="0" y="200" width="400" height="100" fill="#D5D5D5"/>
+  
+  <!-- Líneas del piso -->
+  <line x1="0" y1="200" x2="200" y2="300" stroke="#BDBDBD" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="200" x2="300" y2="300" stroke="#BDBDBD" stroke-width="1" opacity="0.5"/>
+  <line x1="200" y1="200" x2="400" y2="300" stroke="#BDBDBD" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Ventana grande -->
+  <rect x="30" y="30" width="120" height="100" fill="#87CEEB" rx="5"/>
+  <rect x="35" y="35" width="110" height="90" fill="#B0E0E6"/>
+  <line x1="90" y1="30" x2="90" y2="130" stroke="#5F9EA0" stroke-width="4"/>
+  <line x1="30" y1="80" x2="150" y2="80" stroke="#5F9EA0" stroke-width="4"/>
+  
+  <!-- Nubes en la ventana -->
+  <ellipse cx="70" cy="60" rx="15" ry="10" fill="white" opacity="0.7"/>
+  <ellipse cx="85" cy="58" rx="12" ry="8" fill="white" opacity="0.7"/>
+  <ellipse cx="100" cy="105" rx="18" ry="12" fill="white" opacity="0.7"/>
+  <ellipse cx="115" cy="103" rx="15" ry="10" fill="white" opacity="0.7"/>
+  
+  <!-- Cuadros en la pared (diplomas/certificados) -->
+  <rect x="190" y="40" width="60" height="45" fill="white" stroke="#8B4513" stroke-width="3" rx="2"/>
+  <rect x="195" y="45" width="50" height="35" fill="#E8F5E9"/>
+  <path d="M 205 55 L 210 60 L 215 52" stroke="#4CAF50" stroke-width="2" fill="none"/>
+  <line x1="200" y1="70" x2="245" y2="70" stroke="#4CAF50" stroke-width="1.5"/>
+  <line x1="200" y1="73" x2="240" y2="73" stroke="#90A4AE" stroke-width="1"/>
+  
+  <rect x="270" y="40" width="60" height="45" fill="white" stroke="#8B4513" stroke-width="3" rx="2"/>
+  <rect x="275" y="45" width="50" height="35" fill="#E3F2FD"/>
+  <circle cx="300" cy="62.5" r="10" fill="#2196F3" opacity="0.3"/>
+  <path d="M 295 62.5 L 298 65.5 L 305 58.5" stroke="#2196F3" stroke-width="2" fill="none"/>
+  
+  <!-- Estante con suministros -->
+  <rect x="350" y="60" width="40" height="80" fill="#8D6E63"/>
+  <rect x="352" y="62" width="36" height="2" fill="#5D4037"/>
+  <rect x="352" y="90" width="36" height="2" fill="#5D4037"/>
+  <rect x="352" y="118" width="36" height="2" fill="#5D4037"/>
+  
+  <!-- Frascos y suministros en estante -->
+  <rect x="357" y="65" width="8" height="12" fill="#42A5F5" rx="1"/>
+  <rect x="368" y="67" width="6" height="10" fill="#FF9800" rx="1"/>
+  <rect x="377" y="66" width="7" height="11" fill="#4CAF50" rx="1"/>
+  
+  <rect x="355" y="95" width="10" height="8" fill="#E91E63" rx="1"/>
+  <rect x="368" y="93" width="8" height="10" fill="#9C27B0" rx="1"/>
+  <rect x="378" y="94" width="9" height="9" fill="#00BCD4" rx="1"/>
+  
+  <!-- Mesa de examen central -->
+  <rect x="120" y="210" width="160" height="12" fill="#546E7A" rx="3"/>
+  <rect x="125" y="222" width="8" height="40" fill="#455A64"/>
+  <rect x="267" y="222" width="8" height="40" fill="#455A64"/>
+  
+  <!-- Colchoneta en la mesa -->
+  <rect x="130" y="200" width="140" height="10" fill="#81C784" rx="2"/>
+  
+  <!-- Lámpara de examen -->
+  <line x1="350" y1="140" x2="320" y2="180" stroke="#757575" stroke-width="3"/>
+  <ellipse cx="315" cy="185" rx="25" ry="8" fill="#FDD835"/>
+  <ellipse cx="315" cy="183" rx="20" ry="6" fill="#FFEB3B"/>
+  
+  <!-- Banquito con ruedas -->
+  <rect x="300" y="230" width="35" height="8" fill="#D32F2F" rx="2"/>
+  <line x1="310" y1="238" x2="310" y2="255" stroke="#B71C1C" stroke-width="4"/>
+  <line x1="327" y1="238" x2="327" y2="255" stroke="#B71C1C" stroke-width="4"/>
+  <circle cx="307" cy="257" r="4" fill="#424242"/>
+  <circle cx="330" cy="257" r="4" fill="#424242"/>
+  
+  <!-- Lavabo -->
+  <rect x="30" y="170" width="60" height="30" fill="#90A4AE" rx="3"/>
+  <ellipse cx="60" cy="185" rx="20" ry="12" fill="#ECEFF1"/>
+  <ellipse cx="60" cy="185" rx="18" ry="10" fill="#B0BEC5"/>
+  <rect x="58" y="160" width="4" height="10" fill="#757575" rx="1"/>
+  <circle cx="60" cy="158" r="3" fill="#78909C"/>
+  
+  <!-- Dispensador de jabón -->
+  <rect x="75" y="175" width="8" height="12" fill="#4CAF50" rx="2"/>
+  <rect x="76" y="187" width="6" height="3" fill="#388E3C"/>
+  
+  <!-- Decoración: Planta -->
+  <ellipse cx="370" cy="250" rx="15" ry="20" fill="#4CAF50"/>
+  <ellipse cx="365" cy="245" rx="12" ry="16" fill="#66BB6A"/>
+  <ellipse cx="375" cy="248" rx="10" height="14" fill="#81C784"/>
+  <rect x="367" y="250" width="6" height="25" fill="#8D6E63"/>
+  <ellipse cx="370" cy="275" rx="18" ry="8" fill="#D7CCC8"/>
+  
+  <!-- Báscula digital en el piso -->
+  <rect x="50" y="235" width="45" height="8" fill="#424242" rx="2"/>
+  <rect x="55" y="225" width="35" height="10" fill="#616161" rx="1"/>
+  <rect x="60" y="227" width="25" height="6" fill="#00E676"/>
+  <text x="72.5" y="231.5" font-size="4" fill="#000" text-anchor="middle" font-family="monospace">88.8</text>
+</svg>
