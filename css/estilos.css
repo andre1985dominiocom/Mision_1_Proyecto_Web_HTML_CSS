@@ -101,7 +101,30 @@
     height: auto;
     display: flex;
     object-fit: cover;
-    /*transition: flex-basis 1s cubic-bezier(0,.9,.4,.99);*/
+}
+
+.presentacion__imagen-1 {
+    overflow: hidden;
+}
+
+.presentacion__imagen-1 img {
+    transition: transform 0.5s ease;
+}
+
+.presentacion__imagen-1 img:hover {
+    transform: scale(1.12);
+}
+
+.presentacion__imagen-2 {
+    overflow: hidden;
+}
+
+.presentacion__imagen-2 img {
+    transition: transform 0.5s ease;
+}
+
+.presentacion__imagen-2 img:hover {
+    transform: scale(1.12);
 }
 
 .presentacion__titulo--descripcion {
