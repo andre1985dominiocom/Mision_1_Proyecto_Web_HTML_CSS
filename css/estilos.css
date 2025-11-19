@@ -65,6 +65,8 @@
     color: var(--color-texto);
     padding: var(--espaciado-general);
     text-align: center;
+    flex-basis: 1s;
+    /*transition: flex-basis 1s cubic-bezier(0,.9,.4,.99);*/
 }
 
 .presentacion__titulo {
@@ -99,6 +101,7 @@
     height: auto;
     display: flex;
     object-fit: cover;
+    /*transition: flex-basis 1s cubic-bezier(0,.9,.4,.99);*/
 }
 
 .presentacion__titulo--descripcion {
@@ -122,6 +125,9 @@
     color: var(--color-texto);
     padding: var(--espaciado-general);
     text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
 }
 
 .servicios__titulo {
