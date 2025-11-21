@@ -401,6 +401,40 @@
     margin-bottom: var(--espaciado-general);
 }
 
+/* Section Gestor de tareas */
+.tareas {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    padding: var(--espaciado-general);
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--color-secundario);
+}
+
 @media screen and (max-width: 768px) {
     .encabezado {
         flex-direction: column;
